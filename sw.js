@@ -1,5 +1,7 @@
-self.addEventListener('fetch', function(event) {
-	
-	event.respondWith(fetch(event.request));
-	
-});
+( function() {
+	self.addEventListener('fetch', function(event) {
+
+		event.respondWith(fetch(event.request));
+
+	});
+} );
